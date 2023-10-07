@@ -1,10 +1,29 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import logo from "../assets/image/logo.png";
 import profileImg from "../assets/image/profile.jpg";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { useContext } from "react";
+import { toast } from "react-toastify";
 const Navbar = () => {
-  const {user} = useContext(AuthContext)
+  const navigate = useNavigate()
+  const {user , logOut } = useContext(AuthContext)
+
+// handleLogOut
+const handleLogOut =()=>{
+  logOut()
+    .then(()=>{
+      navigate('/')
+      toast.success('Logout successfull')
+    })
+    .catch(error => {
+      toast.error(error.message)
+      console.error(error);
+    })
+}
+
+
+
+
   const menuLink = (
     <>
       <span className="mr-6 text-xl">
@@ -71,17 +90,17 @@ const Navbar = () => {
       <div className="navbar-end">
       <div className=" border-l-2 flex justify-center items-center  border-r-2 px-2"> 
    
-   {user.email && <span className="mr-6 text-sm font-semibold">Welcome {user.displayName}</span>}
+   {user?.email && <span className="mr-6 text-sm font-semibold">{user.displayName}</span>}
      <div className="avatar online w-12 ">
        <div className="max-w-xs rounded-full">
-         <img src={profileImg} 
+         <img src={ user ? user?.photoURL : profileImg} 
          className="max-w-xs h-full"
          />
        </div>
      </div>
      </div>
         {
-          user ? <Link to={"/logout"}> <button className="btn btn-primary">Sign Out</button> </Link> :<Link to={"/login"}> <button className="btn btn-primary">Sign In</button> </Link>
+          user ? <Link to={"/logout"}> <button onClick={handleLogOut} className="btn btn-primary">Sign Out</button> </Link> :<Link to={"/login"}> <button className="btn btn-primary">Sign In</button> </Link>
         }
       </div>
     </div>
