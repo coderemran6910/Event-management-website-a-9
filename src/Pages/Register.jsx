@@ -14,6 +14,26 @@ const handleRegister =(e)=>{
   const password = form.get('password');
 
 
+//  Password must be at least 6 characters
+if(password.length < 6){
+  toast.error('password must be at least 6 characters');
+  return;
+}
+
+// Must be a capital letter in the password
+if(!/(?=.*[A-Z])/.test(password)){
+  toast.error('password must be a capital letter');
+  return;
+}
+
+// Must be have  a special character
+if(!/(?=.*[!@#$%^&*])/.test(password)){
+  toast.error('password must have a special character');
+  return;
+}
+
+
+
   createUser(email, password)
   .then(result =>{
     const user = result.user;
