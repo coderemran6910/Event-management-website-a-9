@@ -7,6 +7,7 @@ import Weddings from "../Pages/Weddings"
 import ServicesPage from "../Pages/ServicesPage"
 import Login from "../Pages/Login"
 import Register from "../Pages/Register"
+import ServicesDetails from "../components/ServicesDetails"
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: "/services",
                 element: <ServicesPage></ServicesPage>
+            },
+            {
+                path: "/service/:id",
+                element: <ServicesDetails></ServicesDetails>
             },
             {
                 path: "/wedding",

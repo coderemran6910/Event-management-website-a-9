@@ -1,6 +1,8 @@
+import PropTypes from "prop-types"
+import { useNavigate } from "react-router-dom";
 const ServicesCard = ({ service }) => {
-    console.log(service);
-    const {description, image, name, price, shortDescription } = service
+  const navigate = useNavigate()
+    const {image, name, price, shortDescription, id} = service
   return (
     <div>
       <div className="card w-96 glass mx-auto">
@@ -17,7 +19,7 @@ const ServicesCard = ({ service }) => {
           
           <div className="card-actions  justify-between items-center">
           <button className="btn ">{price}</button>
-            <button className="btn btn-primary">More details</button>
+            <button onClick={()=> navigate(`/service/${id}`) } className="btn btn-primary">More details</button>
           </div>
         </div>
       </div>
@@ -25,6 +27,9 @@ const ServicesCard = ({ service }) => {
   );
 };
 
+ServicesCard.propTypes = {
+  service: PropTypes.object,
+}
 export default ServicesCard;
 
 

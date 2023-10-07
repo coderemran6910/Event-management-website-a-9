@@ -6,7 +6,7 @@
       {
         "id": "1",
         "name": "Event Planning",
-        "description": "Comprehensive event planning services tailored to your needs, from concept to execution.",
+        "description": "Comprehensive event planning services tailored to your needs, from concept to execution. Our experienced planning experts will work closely with you to bring your vision to life. Whether it's a wedding, corporate event, or any special occasion, we ensure every detail is perfectly orchestrated for a memorable experience.",
         "image": "https://i.ibb.co/G2QBYCb/pexels-abir-shahriar-2102765.jpg",
         "price": "$1000",
         "shortDescription": "Craft your perfect event with the guidance of our experienced planning experts."
@@ -14,7 +14,7 @@
       {
         "id": "2",
         "name": "Venue Selection",
-        "description": "We help you find the perfect venue that matches your event's style and size.",
+        "description": "We go the extra mile to find the perfect venue that matches your event's style and size. Our venue experts scout locations that not only meet your requirements but also add a unique charm to your gathering. Discover an ideal setting that sets the stage for unforgettable memories.",
         "image": "https://i.ibb.co/W0xTqgL/pexels-kayla-renee-1608590.jpg",
         "price": "$500",
         "shortDescription": "Discover an ideal location that sets the stage for your unforgettable gathering."
@@ -22,7 +22,7 @@
       {
         "id": "3",
         "name": "Decor and Design",
-        "description": "Create a visually stunning atmosphere with our event decor and design expertise.",
+        "description": "Elevate your event's ambiance to a whole new level of elegance and charm with our decor and design expertise. Our talented designers will transform any space into a visually stunning masterpiece, creating an atmosphere that leaves a lasting impression on your guests.",
         "image": "https://i.ibb.co/F7nDRHG/pexels-fauxels-3183197.jpg",
         "price": "$800",
         "shortDescription": "Elevate your event's ambiance to a whole new level of elegance and charm."
@@ -30,7 +30,7 @@
       {
         "id": "4",
         "name": "Catering Services",
-        "description": "Delight your guests with delicious catering options, from gourmet meals to finger foods.",
+        "description": "Delight your guests with our diverse catering options, from gourmet meals to delectable finger foods. Our culinary team crafts exquisite flavors that will tantalize taste buds and leave your guests craving for more. Enjoy a culinary experience like no other.",
         "image": "https://i.ibb.co/qnDw7yH/pexels-expect-best-1243337.jpg",
         "price": "$1200",
         "shortDescription": "Savor the exquisite flavors that will leave your guests craving for more."
@@ -38,7 +38,7 @@
       {
         "id": "5",
         "name": "Entertainment",
-        "description": "Keep the party going with our entertainment services, including live music and DJs.",
+        "description": "Keep the party going with our entertainment services, including live music and DJs. Our talented entertainers will ensure that your guests are on their feet, dancing all night long. From music selection to live performances, we bring the energy to your event.",
         "image": "https://i.ibb.co/ZT5YNRR/pexels-elle-hughes-2696064.jpg",
         "price": "$1500",
         "shortDescription": "Entertain your guests with music that will have them dancing all night long."
@@ -46,7 +46,7 @@
       {
         "id": "6",
         "name": "Photography and Videography",
-        "description": "Capture every moment with our professional photography and videography services.",
+        "description": "Preserve cherished memories with our professional photography and videography services. Our skilled photographers and videographers capture every moment with precision, ensuring you can relive your special day through stunning visuals",
         "image": "https://i.ibb.co/MDzCX6C/pexels-creative-vix-370984.jpg",
         "price": "$900",
         "shortDescription": "Preserve cherished memories with stunning photographs and videos."
@@ -54,7 +54,7 @@
       {
         "id": "7",
         "name": "Event Coordination",
-        "description": "Relax and enjoy your event while we handle all the logistics and coordination.",
+        "description": "Relax and enjoy your event while we handle all the logistics and coordination. Our expert team takes care of the details, ensuring a stress-free planning process. You can savor every moment knowing we have everything under control.",
         "image": "https://i.ibb.co/zRSYpF6/pexels-cottonbro-studio-3419692.jpg",
         "price": "$700",
         "shortDescription": "Experience stress-free event planning and enjoy every moment."
@@ -62,7 +62,7 @@
       {
         "id": "8",
         "name": "Wedding Planning",
-        "description": "Let us help you create the wedding of your dreams with our dedicated wedding planning services.",
+        "description": "Craft your dream wedding with the guidance of our dedicated team. From venue selection to decor and coordination, we specialize in creating the wedding of your dreams. Let us handle the details while you focus on making beautiful memories.",
         "image": "https://i.ibb.co/pbvh368/pexels-august-de-richelieu-4262414.jpg",
         "price": "$2500",
         "shortDescription": "Craft your dream wedding with the guidance of our dedicated team."
@@ -70,7 +70,7 @@
       {
         "id": "9",
         "name": "Birthday Celebrations",
-        "description": "Make your birthday unforgettable with our specialized birthday celebration planning.",
+        "description": "Make your birthday unforgettable with our specialized birthday celebration planning. We add a touch of style to your special day, creating lasting memories for you and your guests. Celebrate in style and let us take care of the details.",
         "image": "https://i.ibb.co/d54XQ50/pexels-askar-abayev-5638748.jpg",
         "price": "$600",
         "shortDescription": "Celebrate your special day in style and create lasting memories."
@@ -78,9 +78,9 @@
       {
         "id": "10",
         "name": "Custom Services",
-        "description": "Tailor our services to meet your unique event needs, including anniversaries, corporate events, and more.",
+        "description": "ailor our services to meet your unique event needs, including anniversaries, corporate events, and more. We offer flexibility in creating one-of-a-kind events that reflect your personal style and preferences. Customize your event and make it truly exceptional.",
         "image": "https://i.ibb.co/5rmsKj0/pexels-ami-suhzu-3534022.jpg",
-        "price": "Varies",
+        "price": "$900",
         "shortDescription": "Customize your event and make it truly one-of-a-kind."
       }
     ]
