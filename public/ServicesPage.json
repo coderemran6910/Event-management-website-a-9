@@ -1,0 +1,101 @@
+{
+  "services": {
+    "title": "Our Services",
+    "description": "Discover our wide range of event planning and coordination services to make your special occasions truly memorable.",
+    "servicesList": [
+      {
+        "id": "1",
+        "name": "Event Planning",
+        "description": "Comprehensive event planning services tailored to your needs, from concept to execution.",
+        "image": "https://i.ibb.co/G2QBYCb/pexels-abir-shahriar-2102765.jpg",
+        "price": "$1000",
+        "shortDescription": "Craft your perfect event with the guidance of our experienced planning experts."
+      },
+      {
+        "id": "2",
+        "name": "Venue Selection",
+        "description": "We help you find the perfect venue that matches your event's style and size.",
+        "image": "https://i.ibb.co/W0xTqgL/pexels-kayla-renee-1608590.jpg",
+        "price": "$500",
+        "shortDescription": "Discover an ideal location that sets the stage for your unforgettable gathering."
+      },
+      {
+        "id": "3",
+        "name": "Decor and Design",
+        "description": "Create a visually stunning atmosphere with our event decor and design expertise.",
+        "image": "https://i.ibb.co/F7nDRHG/pexels-fauxels-3183197.jpg",
+        "price": "$800",
+        "shortDescription": "Elevate your event's ambiance to a whole new level of elegance and charm."
+      },
+      {
+        "id": "4",
+        "name": "Catering Services",
+        "description": "Delight your guests with delicious catering options, from gourmet meals to finger foods.",
+        "image": "https://i.ibb.co/qnDw7yH/pexels-expect-best-1243337.jpg",
+        "price": "$1200",
+        "shortDescription": "Savor the exquisite flavors that will leave your guests craving for more."
+      },
+      {
+        "id": "5",
+        "name": "Entertainment",
+        "description": "Keep the party going with our entertainment services, including live music and DJs.",
+        "image": "https://i.ibb.co/ZT5YNRR/pexels-elle-hughes-2696064.jpg",
+        "price": "$1500",
+        "shortDescription": "Entertain your guests with music that will have them dancing all night long."
+      },
+      {
+        "id": "6",
+        "name": "Photography and Videography",
+        "description": "Capture every moment with our professional photography and videography services.",
+        "image": "https://i.ibb.co/MDzCX6C/pexels-creative-vix-370984.jpg",
+        "price": "$900",
+        "shortDescription": "Preserve cherished memories with stunning photographs and videos."
+      },
+      {
+        "id": "7",
+        "name": "Event Coordination",
+        "description": "Relax and enjoy your event while we handle all the logistics and coordination.",
+        "image": "https://i.ibb.co/zRSYpF6/pexels-cottonbro-studio-3419692.jpg",
+        "price": "$700",
+        "shortDescription": "Experience stress-free event planning and enjoy every moment."
+      },
+      {
+        "id": "8",
+        "name": "Wedding Planning",
+        "description": "Let us help you create the wedding of your dreams with our dedicated wedding planning services.",
+        "image": "https://i.ibb.co/pbvh368/pexels-august-de-richelieu-4262414.jpg",
+        "price": "$2500",
+        "shortDescription": "Craft your dream wedding with the guidance of our dedicated team."
+      },
+      {
+        "id": "9",
+        "name": "Birthday Celebrations",
+        "description": "Make your birthday unforgettable with our specialized birthday celebration planning.",
+        "image": "https://i.ibb.co/d54XQ50/pexels-askar-abayev-5638748.jpg",
+        "price": "$600",
+        "shortDescription": "Celebrate your special day in style and create lasting memories."
+      },
+      {
+        "id": "10",
+        "name": "Custom Services",
+        "description": "Tailor our services to meet your unique event needs, including anniversaries, corporate events, and more.",
+        "image": "https://i.ibb.co/5rmsKj0/pexels-ami-suhzu-3534022.jpg",
+        "price": "Varies",
+        "shortDescription": "Customize your event and make it truly one-of-a-kind."
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

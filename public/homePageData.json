@@ -1,0 +1,51 @@
+{
+    "banner": {
+      "title": "Welcome to our Social Event Website",
+      "description": "Bringing people together to celebrate life's special moments.",
+      "image": "banner.jpg"
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "content": "We are a passionate team dedicated to creating unforgettable social events. Our mission is to make every moment memorable."
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "eventsList": [
+        {
+          "name": "Spring Garden Party",
+          "date": "May 15, 2023",
+          "location": "Rose Garden Park",
+          "image": "event1.jpg"
+        },
+        {
+          "name": "Summer Wedding Extravaganza",
+          "date": "June 30, 2023",
+          "location": "Grand Wedding Hall",
+          "image": "event2.jpg"
+        },
+        {
+          "name": "Annual Birthday Bash",
+          "date": "August 8, 2023",
+          "location": "Party Central Venue",
+          "image": "event3.jpg"
+        }
+      ]
+    },
+    "weddings": {
+      "title": "Weddings",
+      "content": "We specialize in crafting dream weddings that reflect your unique love story."
+    },
+    "birthdays": {
+      "title": "Birthdays",
+      "content": "Celebrate another trip around the sun with a fun and memorable birthday party."
+    },
+    "parties": {
+      "title": "Parties",
+      "content": "From casual get-togethers to themed extravaganzas, we'll help you throw the perfect party."
+    },
+    "anniversaries": {
+      "title": "Anniversaries",
+      "content": "Commemorate your love journey with a romantic and unforgettable anniversary celebration."
+    }
+  }
+  

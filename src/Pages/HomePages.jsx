@@ -1,9 +1,16 @@
-import Navbar from "../components/Navbar";
-
+import Bannerslider from "../components/Bannerslider";
+import AboutUs from "./AboutUs";
+import ServicesPage from "./ServicesPage";
+import Weddings from "./Weddings";
 const HomePages = () => {
+ 
+
     return (
         <div>
-           <Navbar></Navbar>
+           <Bannerslider></Bannerslider>
+           <ServicesPage></ServicesPage>
+           <Weddings></Weddings>
+           <AboutUs></AboutUs>
         </div>
     );
 };
