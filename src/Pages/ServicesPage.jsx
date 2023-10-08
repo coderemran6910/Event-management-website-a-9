@@ -4,8 +4,8 @@ import ServicesCard from "../components/ServicesCard";
 
 const ServicesPage = () => {
   const { servicesPageData } = useContext(HomePageContext);
-  const {services, } = servicesPageData
-  console.log(servicesPageData);
+  const {services } = servicesPageData
+  // console.log(servicesPageData);
   return (
     <>
    
