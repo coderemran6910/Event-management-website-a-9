@@ -9,13 +9,14 @@ const ServicesPage = () => {
   return (
     <>
    
-      <div className="flex flex-col items-center justify-center py-10">
-        <h1 className="text-5xl font-bold">{services?.title}</h1>
-        <p className="py-6 ">{services?.description}</p>
+      <div className="bg-gray-100 p-10 mx-auto "> 
+      <div className="flex flex-col items-center justify-center py-10 text-center">
+        <h1 className="text-5xl font-extrabold text-orange-600 border-b-4 border-orange-600">{services?.title}</h1>
+        <p className="py-6 text-lg">{services?.description}</p>
       </div>
 
       {/* servicesList */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 "> 
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  justify-center place-items-center"> 
       {
         services?.servicesList?.map((service) =>{
           return (
@@ -23,6 +24,7 @@ const ServicesPage = () => {
           )
         })
       }
+      </div>
       </div>
     </>
   );
