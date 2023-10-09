@@ -84,15 +84,6 @@
         "price": "$600",
         "shortDescription": "Celebrate your special day in style and create lasting memories.",
         "aos": "zoom-in"
-      },
-      {
-        "id": "10",
-        "name": "Custom Services",
-        "description": "ailor our services to meet your unique event needs, including anniversaries, corporate events, and more. We offer flexibility in creating one-of-a-kind events that reflect your personal style and preferences. Customize your event and make it truly exceptional.",
-        "image": "https://i.ibb.co/5rmsKj0/pexels-ami-suhzu-3534022.jpg",
-        "price": "$900",
-        "shortDescription": "Customize your event and make it truly one-of-a-kind.",
-        "aos": "zoom-out"
       }
     ]
   }

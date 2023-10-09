@@ -72,7 +72,7 @@ const handleLogOut =()=>{
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3  space-y-5  z-50 p-2 shadow bg-base-100 rounded-box w-52 text-center "
           >
-             {user?.email && <span className="mr-6 text-sm font-semibold ">{user.displayName || "User Name"}</span>}
+             {user?.displayName && <span className="mr-6 text-sm font-semibold ">{user.displayName || "User Name"}</span>}
             {menuLink}
           </ul>
         </div>

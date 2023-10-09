@@ -1,5 +1,5 @@
 # Social Event Management Company
- ## [ Website Life Link](https://social-event-react-project.web.app)
+ ## [ Website Live Link](https://social-event-react-project.web.app)
  (https://social-event-react-project.web.app/)
 
 
