@@ -146,7 +146,8 @@ console.log(count);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Currect answer is 3 </i>
+This  array of nums called with elements [0, 1, 2, 3].  using forEach to loop through the elements and count how many of them are truthy (non-zero). The count variable is incremented for each truthy element. In this case, there are three truthy elements (1, 2, and 3), so the final output is 3.
 
 </p>
 </details>
