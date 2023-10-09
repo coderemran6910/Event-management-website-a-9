@@ -19,7 +19,7 @@ console.log(greetign);
 <p>
 
 #### Answer: ?
-<i>Write answer is A: "{}"</i>
+<i>Right answer is A: "{}"</i>
 <i> <b>let greeting</b>: this line is just declares a variable using Let keyword. dont assigned a any value </i>
 <i> <b>greetign = {}</b> The Line of codes means Assigned a empty object , We know that In JavaScript, {} represents an empty object literal. So, I am sure its outpu is empty array"{}"  because that's the value of the "greeting" variable after you assigned it. </i>
 
@@ -115,8 +115,11 @@ console.log(sayHi());
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Right Answe is - B: `Hi there, undefined`</i>
 
+In This code,  have defined a function sayHi that takes one parameter name and returns a string with a greeting. The greeting is constructed using template literals with the value of the name parameter.
+
+However, when  call sayHi() in the console.log statement, not passing any argument for the name parameter. In JavaScript, if  don't provide a value for a parameter that the function expects, the parameter's value becomes undefined.
 </p>
 </details>
 
