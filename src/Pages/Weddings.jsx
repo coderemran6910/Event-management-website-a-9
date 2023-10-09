@@ -3,10 +3,10 @@ import wedingImg from "../assets/image/wedding.jpg";
 const Weddings = () => {
   return (
     <>
-     <div className=" bg-slate-200">
+     <div className=" bg-slate-200 py-5">
      <div className="container  mx-auto">
       <div className="flex flex-col items-center justify-center py-10  w-2/4 mx-auto text-center pt-20">
-        <h1 className="text-5xl  font-extrabold"> Your Dream <span className="text-orange-600">Wedding</span></h1>
+        <h1 className="text-5xl  font-extrabold"> Your Dream <span className="text-orange-600 border-b-2 border-orange-400">Wedding</span></h1>
         <p className="py-6  text-lg">
           Celebrate love and create memories that last a lifetime.
           <span className="text-blue-500">
@@ -32,11 +32,11 @@ const Weddings = () => {
           <div className="container mx-auto p-4">
             <section className="my-8 space-x-5">
               <h2 className="text-2xl font-semibold  text-gray-800 mb-4">
-                How We'll Manage the Wedding Event
+                How We will Manage the Wedding Event
               </h2>
               <p className="text-gray-700 text-xl">
-                At our wedding, we're dedicated to making this special day as
-                memorable and enjoyable as possible for our guests. Here's how
+                At our wedding, we are dedicated to making this special day as
+                memorable and enjoyable as possible for our guests. Here is how
                 we plan to manage the event:
               </p>
               <ul className="list-disc pl-4 mt-4 text-base">
@@ -46,12 +46,12 @@ const Weddings = () => {
                   in celebrating our union.
                 </li>
                 <li className="text-gray-700">
-                  <strong>Venue:</strong> We've selected a beautiful venue that
+                  <strong>Venue:</strong> We have  selected a beautiful venue that
                   offers both indoor and outdoor spaces, ensuring a comfortable
                   and picturesque setting for the ceremony and reception.
                 </li>
                 <li className="text-gray-700">
-                  <strong>Guest List:</strong> We've created a guest list that
+                  <strong>Guest List:</strong> We have  created a guest list that
                   includes our closest friends and family members, ensuring an
                   intimate and meaningful gathering.
                 </li>
@@ -61,7 +61,7 @@ const Weddings = () => {
                   preferences and restrictions.
                 </li>
                 <li className="text-gray-700">
-                  <strong>Entertainment:</strong> We've hired a talented DJ and
+                  <strong>Entertainment:</strong> We have hired a talented DJ and
                   live band to keep the celebration lively and fun for everyone.
                 </li>
                 <li className="text-gray-700">
@@ -71,7 +71,7 @@ const Weddings = () => {
                 </li>
               </ul>
               <p className="text-gray-700 mt-4">
-                We can't wait to share this special day with you and create
+                We can not wait to share this special day with you and create
                 lasting memories together.
               </p>
             </section>

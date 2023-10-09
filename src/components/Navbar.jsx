@@ -38,20 +38,18 @@ const handleLogOut =()=>{
       <span className="mr-6 text-xl">
         <NavLink to={"/wedding"}>Weddings </NavLink>
       </span>
-      <span className="mr-6 text-xl">
-        <NavLink to={"/birthDay"}>Birthday </NavLink>
-      </span>
-      <span className="mr-6 text-xl">
+      <span className={`mr-6 text-xl ${!user ? "text-gray-500" : ""} `}>
         <NavLink to={"/anniversaries"}>Anniversaries </NavLink>
       </span>
-      <span className="mr-6 text-xl">
+      <span className={`mr-6 text-xl ${!user ? "text-gray-500" : ""} `}>
         <NavLink to={"/gallery"}>Gallery </NavLink>
       </span>
     </>
   );
 
   return (
-    <div className="navbar bg-base-100 container mx-auto">
+    <div className="bg-base-100">
+      <div className="navbar  container mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -104,6 +102,7 @@ const handleLogOut =()=>{
           user ? <Link to={"/logout"}> <button onClick={handleLogOut} className="btn btn-primary">Sign Out</button> </Link> :<Link to={"/login"}> <button className="btn btn-primary">Sign In</button> </Link>
         }
       </div>
+    </div>
     </div>
   );
 };

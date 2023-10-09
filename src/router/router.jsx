@@ -9,6 +9,8 @@ import Login from "../Pages/Login"
 import Register from "../Pages/Register"
 import ServicesDetails from "../components/ServicesDetails"
 import PrivateRouter from "../PrivateRoute/PrivateRouter"
+import Gallery from "../components/Gallery/Gallery"
+import AnniversariesPage from "../Pages/AnniversariesPage"
 
 const router = createBrowserRouter([
     {
@@ -30,23 +32,19 @@ const router = createBrowserRouter([
             },
             {
                 path: "/service/:id",
-                element: <PrivateRouter><ServicesDetails></ServicesDetails></PrivateRouter>
+                element: <ServicesDetails></ServicesDetails>
             },
             {
                 path: "/wedding",
-                element: <PrivateRouter><Weddings></Weddings></PrivateRouter>
-            },
-            {
-                path: "/birthDay",
-                element: <PrivateRouter><h1>BirthDay</h1></PrivateRouter>
+                element: <Weddings></Weddings>
             },
             {
                 path: "/anniversaries",
-                element: <h1>Anniversaries</h1>
+                element: <PrivateRouter><AnniversariesPage></AnniversariesPage></PrivateRouter>
             },
             {
                 path: "/gallery",
-                element: <PrivateRouter><h1>Gallery</h1></PrivateRouter>
+                element: <PrivateRouter>  <Gallery></Gallery>  </PrivateRouter>
 
             },
             {
