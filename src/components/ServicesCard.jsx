@@ -22,7 +22,7 @@ const ServicesCard = ({ service }) => {
   const { image, name, price, shortDescription, id, aos } = service;
   return (
     <div>
-      <div data-aos={aos} data-aos-duration="1200" className="card w-80 md:w-72 lg:w-96 glass mx-auto shadow-xl">
+      <div style={{overflow:"hidden"}} data-aos={aos} data-aos-duration="1200" className="row card w-80 md:w-72 lg:w-96 glass mx-auto shadow-xl">
         <figure className="h-48">
           <img src={image} alt="car!" className="object-cover w-full h-full" />
         </figure>

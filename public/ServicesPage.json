@@ -29,7 +29,7 @@
         "image": "https://i.ibb.co/F7nDRHG/pexels-fauxels-3183197.jpg",
         "price": "$800",
         "shortDescription": "Elevate your event's ambiance to a whole new level of elegance and charm.",
-        "aos": "fade-left"
+        "aos": "zoom-in"
       },
       {
         "id": "4",
@@ -38,7 +38,7 @@
         "image": "https://i.ibb.co/qnDw7yH/pexels-expect-best-1243337.jpg",
         "price": "$1200",
         "shortDescription": "Savor the exquisite flavors that will leave your guests craving for more.",
-        "aos": "fade-right"
+        "aos": "zoom-out"
       },
       {
         "id": "5",
@@ -47,7 +47,7 @@
         "image": "https://i.ibb.co/ZT5YNRR/pexels-elle-hughes-2696064.jpg",
         "price": "$1500",
         "shortDescription": "Entertain your guests with music that will have them dancing all night long.",
-        "aos": "fade-up-right"
+        "aos": "fade-down"
       },
       {
         "id": "6",
@@ -56,7 +56,7 @@
         "image": "https://i.ibb.co/MDzCX6C/pexels-creative-vix-370984.jpg",
         "price": "$900",
         "shortDescription": "Preserve cherished memories with stunning photographs and videos.",
-        "aos": "fade-up-left"
+        "aos": "fade-up"
       },
       {
         "id": "7",
@@ -65,7 +65,7 @@
         "image": "https://i.ibb.co/zRSYpF6/pexels-cottonbro-studio-3419692.jpg",
         "price": "$700",
         "shortDescription": "Experience stress-free event planning and enjoy every moment.",
-        "aos": "fade-down-right"
+        "aos": "zoom-out"
       },
       {
         "id": "8",
@@ -74,7 +74,7 @@
         "image": "https://i.ibb.co/pbvh368/pexels-august-de-richelieu-4262414.jpg",
         "price": "$2500",
         "shortDescription": "Craft your dream wedding with the guidance of our dedicated team.",
-        "aos": "fade-down-left"
+        "aos": "zoom-in"
       },
       {
         "id": "9",

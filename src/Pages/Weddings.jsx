@@ -16,7 +16,7 @@ const Weddings = () => {
      <div  className=" bg-slate-200 py-5">
      <div className="container  mx-auto">
       <div data-aos="fade-up" data-aos-duration="1200" className="flex flex-col items-center justify-center py-10  w-2/4 mx-auto text-center pt-20">
-        <h1 data-aos-anchor-placement="center-bottom" className="text-3xl md:text-5xl  font-extrabold"> Your Dream <span className="text-orange-600 border-b-2 border-orange-400">Wedding</span></h1>
+        <h1 className="text-3xl md:text-5xl  font-extrabold"> Your Dream <span className="text-orange-600 border-b-2 border-orange-400">Wedding</span></h1>
         <p className="py-6  text-lg">
           Celebrate love and create memories that last a lifetime.
           <span className="text-blue-500">
@@ -26,14 +26,14 @@ const Weddings = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center  items-center">
-        <div data-aos="zoom-out" data-aos-duration="2000"  className="object-cover">
+        <div data-aos="zoom-in" data-aos-duration="2000"  className="object-cover">
           <img
             src={wedingImg}
             alt=""
             className="rounded-2xl h-full w-full object-cover  object-top"
           />
         </div>
-        <div data-aos="fade-left" data-aos-duration="2000" className="px-5 py-5 space-y-6  ">
+        <div data-aos="fade-dawn" data-aos-duration="2000" className="px-5 py-5 space-y-6  ">
           <div className=" shadow-md p-4 text-3xl">
             <h1 className="text-4xl font-extrabold text-orange-600 ">
               Our Wedding
