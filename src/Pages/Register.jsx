@@ -1,11 +1,15 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import "react-toastify/dist/ReactToastify.css";
 import { toast } from "react-toastify";
+import {Helmet} from "react-helmet";
 
 const Register = () => {
   const { createUser, updateUserProfile } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+
   const handleRegister = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
@@ -37,7 +41,7 @@ const Register = () => {
         const user = result.user;
         console.log(user);
         // Update User Profile
-        
+        navigate("/");
         updateUserProfile(username, profileImage)
           .then(() => {
             toast.success("profile updated successfully");
@@ -56,7 +60,11 @@ const Register = () => {
   };
 
   return (
+    
     <div className="hero min-h-[80vh] bg-base-200">
+
+<Helmet> <title> Register now </title></Helmet>
+
       <div className="hero-content flex-col justify-center items-center">
         <div className="text-center  md:full  mx-auto lg:text-left">
           <div className="text-center lg:text-left">

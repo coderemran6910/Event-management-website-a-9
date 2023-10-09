@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet";
 
 
 const AnniversariesPage = () => {
   return (
     <div className="  p-10 ">
+
+
+      <Helmet> <title> Anniversaries Secret</title> </Helmet>
       <header className=" py-10">
         <div className="container mx-auto text-center">
           <h1 className=" text-3xl md:text-5xl font-semibold">

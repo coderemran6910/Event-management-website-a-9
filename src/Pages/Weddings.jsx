@@ -5,6 +5,7 @@ import wedingImg from "../assets/image/wedding.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 const Weddings = () => {
   useEffect(()=>{
     AOS.init(2000);
@@ -14,6 +15,7 @@ const Weddings = () => {
   return (
     <>
      <div  className=" bg-slate-200 py-5">
+      <Helmet> <title> Weddings </title></Helmet>
      <div className="container  mx-auto">
       <div data-aos="fade-up" data-aos-duration="1200" className="flex flex-col items-center justify-center py-10  w-2/4 mx-auto text-center pt-20">
         <h1 className="text-3xl md:text-5xl  font-extrabold"> Your Dream <span className="text-orange-600 border-b-2 border-orange-400">Wedding</span></h1>

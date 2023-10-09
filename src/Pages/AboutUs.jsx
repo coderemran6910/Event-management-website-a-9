@@ -3,6 +3,7 @@ import aboutImg from "../assets/image/about.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const AboutUs = () => {
   useEffect(()=>{
@@ -11,6 +12,7 @@ const AboutUs = () => {
   })
   return (
     <>
+    <Helmet><title> HOME-About Us </title></Helmet>
     <div className=" bg-slate-200 py-5">
     <div className="container mx-auto">
 

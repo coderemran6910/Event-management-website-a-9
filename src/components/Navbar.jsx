@@ -70,7 +70,7 @@ const handleLogOut =()=>{
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3  space-y-5  z-50 p-2 shadow bg-base-100 rounded-box w-52 text-center "
+            className="menu menu-sm dropdown-content mt-3  space-y-5  z-50 p-2 shadow bg-base-100 rounded-box w-52 text-center  uppercase "
           >
              {user?.displayName && <span className="mr-6 text-sm font-semibold ">{user.displayName || "User Name"}</span>}
             {menuLink}
@@ -81,7 +81,7 @@ const handleLogOut =()=>{
         </div>
       </div>
       <div className="navbar-center hidden lg:flex ">
-        <ul className="menu menu-horizontal px-1 ">{menuLink}</ul>
+        <ul className="menu menu-horizontal px-1 uppercase ">{menuLink}</ul>
       </div>
       
        

@@ -1,8 +1,10 @@
+import { Helmet } from "react-helmet";
 import errorIcon from "../assets/image/error.jpg";
 
 const ErrorPage = () => {
   return (
     <div>
+      <Helmet><title> Error Page </title></Helmet>      
       <div className="bg-gray-100 h-screen flex flex-col items-center justify-center">
         <div className="bg-white p-8 rounded-lg shadow-lg text-center">
          

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -45,6 +46,7 @@ const Login = () => {
 
   return (
     <div className="hero min-h-[80vh] bg-base-200">
+      <Helmet> <title> Login </title> </Helmet>
       <div className="hero-content flex-col justify-center items-center">
         <div className="text-center  md:full  mx-auto lg:text-left">
           <div className="text-center lg:text-left">
