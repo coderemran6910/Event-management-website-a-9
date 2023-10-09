@@ -45,18 +45,14 @@ const Login = () => {
 
   return (
     <div className="hero min-h-[80vh] bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center">
-        <div className="text-center lg:w-1/2 md:full  mx-auto lg:text-left">
+      <div className="hero-content flex-col justify-center items-center">
+        <div className="text-center  md:full  mx-auto lg:text-left">
           <div className="text-center lg:text-left">
             <h1 className=" text-3xl md:text-5xl font-bold text-orange-600">Login now!</h1>
-            <p className="py-6 w-96">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
+            
           </div>
         </div>
-        <div className="card flex-shrink-0 w-80 md:w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card flex-shrink-0 w-80 md:w-full  shadow-2xl bg-base-100">
           <form className="card-body" onSubmit={handleLogin}>
             <div className="form-control">
               <label className="label">
@@ -114,7 +110,7 @@ const Login = () => {
                 </svg>
                 Sign in with Google
               </button>
-              <p className="text-xl ">
+              <p className=" text-sm md:text-xl ">
                 Do not have an account?{" "}
                 <span className=" text-blue-600 font-bold">
                   <Link to="/register">Register</Link>

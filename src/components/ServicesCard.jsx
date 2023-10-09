@@ -1,11 +1,28 @@
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
+
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
+
+
 const ServicesCard = ({ service }) => {
+
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, [])
+
+
+
   const navigate = useNavigate();
-  const { image, name, price, shortDescription, id } = service;
+  const { image, name, price, shortDescription, id, aos } = service;
   return (
     <div>
-      <div className="card w-80 md:w-72 lg:w-96 glass mx-auto shadow-xl">
+      <div data-aos={aos} data-aos-duration="1200" className="card w-80 md:w-72 lg:w-96 glass mx-auto shadow-xl">
         <figure className="h-48">
           <img src={image} alt="car!" className="object-cover w-full h-full" />
         </figure>

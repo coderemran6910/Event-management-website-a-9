@@ -4,14 +4,16 @@ import Bannerslider from "../components/Bannerslider";
 import AboutUs from "./AboutUs";
 import ServicesPage from "./ServicesPage";
 import Weddings from "./Weddings";
+
+
 const HomePages = () => {
- 
+
+  
 
     return (
         <div>
            <Bannerslider></Bannerslider>
-           {/* <Banner2> </Banner2> */}
-           <ServicesPage></ServicesPage>
+           <ServicesPage ></ServicesPage>
            <Weddings></Weddings>
            <AboutUs></AboutUs>
         </div>
