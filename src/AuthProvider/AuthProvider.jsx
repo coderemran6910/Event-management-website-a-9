@@ -1,4 +1,4 @@
-import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
 import auth from "../firebase/firebase.config";
 
@@ -53,13 +53,27 @@ useEffect(()=>{
     }
 }, [])
 
+// Update Profile 
+const updateUserProfile = (username , profileImage)=>{
+    setLoader(true)
+    return updateProfile(auth.currentUser, {
+        displayName: username,
+        photoURL: profileImage
+    })
+}
+
+
+
+
+
     const authInfo = {
         createUser,
         loginUser,
         signInWithGoogle,
         user,
         logOut,
-        loader
+        loader,
+        updateUserProfile
     }
     return (
         <div>

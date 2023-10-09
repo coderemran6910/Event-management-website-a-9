@@ -6,10 +6,12 @@ import { toast } from "react-toastify";
 
 const Register = () => {
 
-  const { createUser } = useContext(AuthContext);
+  const { createUser, updateUserProfile} = useContext(AuthContext);
 const handleRegister =(e)=>{
   e.preventDefault();
   const form = new FormData(e.currentTarget);
+  const username = form.get('username');
+  const profileImage = form.get('profileImage');
   const email = form.get('email');
   const password = form.get('password');
 
@@ -44,6 +46,16 @@ if(!/(?=.*[!@#$%^&*])/.test(password)){
     console.error(error);
     toast.error(error.message)
   })
+
+
+// Update User Profile
+updateUserProfile(username, profileImage)
+.then(result =>{
+  const user = result.user;
+  console.log(user);
+})
+
+
   
 }
 
@@ -61,6 +73,35 @@ if(!/(?=.*[!@#$%^&*])/.test(password)){
       </div>
       <div className="card flex-shrink-0 w-80 md:w-full  shadow-2xl bg-base-100">
         <form className="card-body" onSubmit={handleRegister}>
+
+        <div className="form-control">
+            <label className="label">
+              <span className="label-text">user name</span>
+            </label>
+            <input
+              type="text"
+              name="username"
+              placeholder="Your name"
+              className="input input-bordered"
+              
+            />
+          </div>
+
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Profile Image</span>
+            </label>
+            <input
+              type="text"
+              name="profileImage"
+              placeholder="Image Url"
+              className="input input-bordered"
+              
+            />
+          </div>
+
+
+
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
