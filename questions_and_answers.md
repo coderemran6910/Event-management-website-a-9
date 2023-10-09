@@ -79,7 +79,18 @@ console.log(food);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Right Answer is A: `['🍕', '🍫', '🥑', '🍔']`
+
+const food = ["🍕", "🍫", "🥑", "🍔"];: This line declares a constant array named food containing four items.
+
+const info = { favoriteFood: food[0] };: Here,create an object info with a property favoriteFood, and  initialize it with the first element of the food array, which is "🍕". So, info.favoriteFood initially holds the value "🍕".
+
+info.favoriteFood = "🍝";: This line reassigns the favoriteFood property of the info object with the value "🍝". So, now info.favoriteFood contains "🍝" instead of "🍕".
+
+console.log(food);: Finally,  log the food array to the console.
+
+Before  logged the food array,  only modified the info object by changing the value of info.favoriteFood.  didn't directly modify the food array. Therefore, the food array remains unchanged. When  log food, it will output the original array
+</i>
 
 </p>
 </details>
