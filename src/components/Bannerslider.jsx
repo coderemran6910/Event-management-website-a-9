@@ -34,7 +34,7 @@ const Bannerslider = () => {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="  grid  grid-cols-1 justify-center ">
           {/* ===================================================================== */}
-          <div className="w-96   md:w-auto mb-10 z-10">
+          <div className="w-96 mx-auto md:mx-0  md:w-auto mb-10 z-10">
             <Swiper
               effect={"coverflow"}
               grabCursor={true}
@@ -55,7 +55,7 @@ const Bannerslider = () => {
                 return (
                   <SwiperSlide key={image.id}>
                     <img
-                      className="w-full h-96 object-cover rounded-lg"
+                      className="w-full h-80 md:h-96 object-cover rounded-lg"
                       src={image.image}
                     />
                   </SwiperSlide>

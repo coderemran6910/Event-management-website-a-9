@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
-import { Navigate } from "react-router-dom";
+import { Navigate, useLocation } from "react-router-dom";
 import Swal from "sweetalert2";
 
 const PrivateRouter = ({children}) => {
 const {user , loader}= useContext(AuthContext)
+const location = useLocation()
 
 
 if(loader){
@@ -29,7 +30,7 @@ if(user){
 
     return (
        
-        <Navigate to="/login" />
+        <Navigate state={location.pathname} to="/login" />
     );
 };
 

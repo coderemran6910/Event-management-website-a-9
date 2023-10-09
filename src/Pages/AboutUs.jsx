@@ -6,7 +6,7 @@ const AboutUs = () => {
      <div className="container mx-auto">
 
       <div className="flex flex-col items-center justify-center py-10  w-2/4 mx-auto text-center mt-20">
-        <h1 className="text-5xl font-extrabold text-orange-600 border-b-2 border-orange-400">About Us</h1>
+        <h1 className="text-3xl md:text-5xl font-extrabold text-orange-600 border-b-2 border-orange-400">About Us</h1>
         <p className="py-6 text-lg ">Welcome to PRO EVENT HANDLER, your premier destination for creating
             unforgettable social events and dream weddings.</p>
       </div>

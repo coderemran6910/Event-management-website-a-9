@@ -6,7 +6,7 @@ const Weddings = () => {
      <div className=" bg-slate-200 py-5">
      <div className="container  mx-auto">
       <div className="flex flex-col items-center justify-center py-10  w-2/4 mx-auto text-center pt-20">
-        <h1 className="text-5xl  font-extrabold"> Your Dream <span className="text-orange-600 border-b-2 border-orange-400">Wedding</span></h1>
+        <h1 className="text-3xl md:text-5xl  font-extrabold"> Your Dream <span className="text-orange-600 border-b-2 border-orange-400">Wedding</span></h1>
         <p className="py-6  text-lg">
           Celebrate love and create memories that last a lifetime.
           <span className="text-blue-500">

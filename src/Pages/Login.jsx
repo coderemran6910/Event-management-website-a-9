@@ -1,10 +1,13 @@
 import { useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { toast } from "react-toastify";
 
 const Login = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+
+
   const { loginUser , signInWithGoogle } = useContext(AuthContext);
 
   const handleLogin = (e) => {
@@ -20,7 +23,7 @@ const Login = () => {
         const user = result.user;
         console.log(user);
         toast.success("Login successfull");
-        navigate("/");
+        navigate( location?.state ? location.state : "/");
       })
       .catch((error) => {
         toast.error(error.message);
@@ -42,10 +45,10 @@ const Login = () => {
 
   return (
     <div className="hero min-h-[80vh] bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="text-center lg:text-left">
+      <div className="hero-content flex-col lg:flex-row-reverse justify-center items-center">
+        <div className="text-center lg:w-1/2 md:full  mx-auto lg:text-left">
           <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold text-orange-600">Login now!</h1>
+            <h1 className=" text-3xl md:text-5xl font-bold text-orange-600">Login now!</h1>
             <p className="py-6 w-96">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
@@ -53,7 +56,7 @@ const Login = () => {
             </p>
           </div>
         </div>
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card flex-shrink-0 w-80 md:w-full max-w-sm shadow-2xl bg-base-100">
           <form className="card-body" onSubmit={handleLogin}>
             <div className="form-control">
               <label className="label">

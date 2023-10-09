@@ -2,10 +2,10 @@
 
 const AnniversariesPage = () => {
   return (
-    <div className=" min-h-screen">
+    <div className="  p-10 ">
       <header className=" py-10">
         <div className="container mx-auto text-center">
-          <h1 className=" md:text-5xl lg:text-5xl font-semibold">
+          <h1 className=" text-3xl md:text-5xl font-semibold">
             Celebrate <span className='text-orange-600'>Anniversaries</span> with Us
           </h1>
           <p className="text-lg md:text-xl lg:text-xl mt-2">
